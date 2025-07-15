@@ -14,14 +14,14 @@ var a = 45;
 a=true;
 {
     var a = 10;
-    console.log(a);
+    // console.log(a);
 }
-console.log(a);
+// console.log(a);
 
 function num()
 {
     var test="demo";
-    console.log(a);
+    // console.log(a);
 };
 num();
 // ❌ console.log(test);
@@ -41,7 +41,7 @@ al = 45;
 
 {
     let test1 = "hello";
-    console.log(test1);
+    // console.log(test1);
 }
 // ❌ console.log(test1);
 
@@ -60,3 +60,99 @@ al = 45;
 
 
 //  Loops (for, while and Do while)
+
+// FOR LOOPS
+/**
+ * use of loops for repeated operations performance 
+ * for loops me 3 statement hote hai  (st1 ,st2,st3)
+ {
+    loops body 
+ }
+    1. st1 bss ek baar run hota hai 
+    2. st2 me conditions hote hai(<=,>=,<,>) ye haar baar check hoga jab tak true hai false hote he loops bresk ho jaye ga 
+    3. st3 me increment ya decrement hota hai bss
+*/
+
+for(let i=0; i<=5; i++)
+{
+//  console.log(i);
+ 
+}
+
+// let sum = 0;//
+// let n = 4;
+// for(let i=1; i<=n; i++)
+// {
+//     //sum = sum+i;
+//     sum+=i;
+// }
+// // console.log(sum);
+
+// let sum1=1;
+// for(let i=1; i<=n; i++)
+// {
+//     sum1=sum1*i;
+// }
+// console.log(sum1);
+
+
+// for(i=10; i>=1; i--)
+// {
+//     console.log(i);
+    
+// }
+
+// FOR IN LOOPS 
+
+/**
+ * its basicaly use in object but we can also use it in array
+ * for(let key of object IN object name)
+    {
+        loops body
+    }
+
+    syntax 
+    for(let a in obj)
+    {
+        * its returens keys only 
+        * if wants value also then use objectName[keyName] --obj[a] 
+    }
+ */
+
+    let obj={
+        a:10,
+        b:20,
+        c:30,
+        d:40,
+        e:50
+    }
+
+    for(let k in obj)
+    {
+        // console.log(k);
+        // console.log(obj[k]);
+        // console.log(obj[k] + " in "+k);
+    }
+
+// FOR OF LOOPS
+/**
+ * The JavaScript for of statement loops through the values of an iterable object.
+   It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+
+   syntax
+   for (variable of iterable) 
+   {
+         // code block to be executed
+    }
+    for(a of arry)
+    {
+    }
+*/
+
+
+// let str="shadab"
+let arr=["10","20","30","40"]
+for(a of arr)
+    {
+        // console.log(a); 
+    } 
