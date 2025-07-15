@@ -156,3 +156,31 @@ for(a of arr)
     {
         // console.log(a); 
     } 
+
+// WHILE LOOPS
+/**
+ * Jab tak condition true hai, tab tak loop chalega
+   Start hone se pehle hi check karega
+ */
+
+//    let i = 0;
+//    while(i<=10)
+//    {
+//     console.log(i);
+//     i++;
+//    }
+
+// DO WHILE LOOP
+/**
+ * kam se kam ek baar chale ga 
+ */
+
+// let i=3;
+// do
+// {
+//     console.log(i);
+//     i++;
+// }while(i>4)
+
+
+
