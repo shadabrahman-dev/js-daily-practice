@@ -38,7 +38,7 @@ console.log(str);
 */
 
 
-let str = "Shadab Rahman";
+// let str = "Shadab Rahman";
 
 // console.log(str.split(" "));
 // console.log(str.substring());
@@ -50,5 +50,31 @@ let str = "Shadab Rahman";
 
 // revers a string
 
-let reversStr = str.split("").reverse().join("");
-console.log(reversStr);
+// let reversStr = str.split("").reverse().join("");
+// console.log(reversStr);
+
+
+let name1 = "shadab"
+
+let str = `yo yo honey singh ${name1}`
+
+console.log(str.toLocaleLowerCase());
+console.log(str.toUpperCase());
+console.log(str.length);
+
+console.log(str.split(" ").reverse().join(" "));
+let str1="";
+
+for(let i=str.length-1; i>=0; i--)
+{
+  console.log(str[i]);  
+}
+console.log(str1);
+
+
+
+
+
+
+
+
