@@ -11,7 +11,7 @@
 // // console.log(arr);
 
 // console.log(arr.slice(4,7));
-let arr = [1,2,3,4,5,6];
+let arr = [4,9,2,0,3,5];
 /**
  * .push() array ke end me ek ya zyada values add karta hai.
 
@@ -109,5 +109,16 @@ Interview: "Sum, multiplication, average ya combined value kaise nikaloge?"
    console.log(sumOfElement);
 
  */
+/** .sort() method sorts an array alphabetically || ascending order
+ *  .reverse() method reverses the elements in an array:
+ *  By combining sort() and reverse(), you can sort an array in descending order:
+ 
+
+      console.log(arr.sort());
+      console.log(arr.reverse());
+   
+ */
+
+
 
 
